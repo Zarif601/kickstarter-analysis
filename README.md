@@ -1,1 +1,2 @@
-# kickstarter-analysis
+# An Analysis of Kickstarter Campaigns.
+Analyzed outcomes of the campaigns based on their launch dates. Looked at Category and Subcategory statistics to see how each category and subcategory of campaigns fared. Looked Edinburgh Research data. Computed descriptive statistics of the central tendency of the data. Looked at successful and failed US based campaigns for theatre/plays. Also analyzed Great Britain's musical subcategory data.
