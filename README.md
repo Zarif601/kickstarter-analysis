@@ -23,3 +23,19 @@ In a new sheet called "Outcomes based on Goals" several columns were created to 
 ### Challenges and Difficulties Encountered
 
 During the analysis of this project I learned the COUNTIFS() formula which I wasn't familiar with. Although it wasn't difficult, it was something new that I figured out and it seems like a very useful function for many types of analyses. I hand-coded the ranges of goals in the COUNTIFS() formula, which may have become difficult if I had many more ranges. As such, figuring out a better way to do it would be a worthwile challenge. Playing around with the charts to make them look the best was also a fun and challenging experience.
+
+## Results
+
+- Two conclusions about the Outcomes based on Launch Date:
+1. From the chart we can see that a lot of campaigns had success during the summer months. Especially in May. 
+2. We can also see a drop in success of campaigns during the start of the year and towards the end of the year as well.
+
+- Conclusion about Outcomes based on Goals:
+From the chart we can see that campaigns with lower goals had higher success rate. The succes rate gradually dropped with larger and larger goals. However, we do see a spike in the success rate of campaigns starting around the 30000-34999 range and staying rising till around the 40000-44999 range, after which the success rate drops significantly.
+
+- Some limitations of this dataset:
+This dataset doesn't have any qualitative data which could possibly indicate why people decided not to back certain capmaigns. If there were something like top comments made about said project, it might help with making more informed predictions using the data. It would also help understand why certain campaigns were pladged far more money than their original goals.
+
+- Other possible tables and/or graphs that could be helpful:
+1. One interesting analysis could be performed regarding the outcomes of the campaigns based on the duration of the campaigns. The "Date Created Conversion" and the "Date Neded Conversion" data could be used to make such analysis using graphs along with the "outcomes" data.
+2. We could also analyze the outcomes of campaigns with the "spotlight" column data to see how being in the spotlight affected the outcome of different kickstarter campaigns.
