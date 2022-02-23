@@ -14,11 +14,15 @@ The analysis of this project was performed on the [Kickstarter_Challenge](https:
 
 ### Analysis of Outcomes Based on Launch Date
 
-To start of the analysis, a "Year" column was created using the YEAR() function to hold the year values from the "Date Created Conversion" column, which held all the launch dates of the campaigns. After that a pivot table was created on a new sheet called "Theatre Outcomes by Launch Date." The pivot table displays the outcomes: "successful," "failed," and "canceled" per month filtered on the theatre category every year there was a campaign in this category. The line chart ![Theatre_Outcomes_vs_Launch](https://github.com/Zarif601/kickstarter-analysis/blob/main/Resources/Theatre_Outcomes_vs_Launch.png) was then created to visualize the outcomes of the campaigns and the months in which they were launched.
+To start of the analysis, a "Year" column was created using the YEAR() function to hold the year values from the "Date Created Conversion" column, which held all the launch dates of the campaigns. After that a pivot table was created on a new sheet called "Theatre Outcomes by Launch Date." The pivot table displays the outcomes: "successful," "failed," and "canceled" per month filtered on the theatre category every year there was a campaign in this category. The line chart below was then created to visualize the outcomes of the campaigns and the months in which they were launched.
+
+![Theatre_Outcomes_vs_Launch](https://github.com/Zarif601/kickstarter-analysis/blob/main/Resources/Theatre_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 
-In a new sheet called "Outcomes Based on Goals" several columns were created to hold different ranges of goals, numbers of successful, failed and canceled projects, their percentages, and the total number of projects to perform mathematical analysis on the data. The functions COUNTIFS() and SUM() were used to populate most of these columns, while performing simple mathematical calculations accounted for the percentages. Afterwards, the line chart ![Outcomes_vs_Goals](https://github.com/Zarif601/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png) was created to visualize the relationship between the outcomes and the goal ranges.
+In a new sheet called "Outcomes Based on Goals" several columns were created to hold different ranges of goals, numbers of successful, failed and canceled projects, their percentages, and the total number of projects to perform mathematical analysis on the data. The functions COUNTIFS() and SUM() were used to populate most of these columns, while performing simple mathematical calculations accounted for the percentages. Afterwards, the line chart below  was created to visualize the relationship between the outcomes and the goal ranges.
+
+![Outcomes_vs_Goals](https://github.com/Zarif601/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 
